@@ -45,8 +45,8 @@ class ButtonWithAlert extends StatelessWidget {
           context: context,
           builder: (BuildContext context) {
             return AlertDialog(
-              title: const Text("Bouton cliqué"),
-              content: const Text("Vous avez cliqué sur le bouton !"),
+              title: const Text("Bonsoir"),
+              content: const Text("Bonsoir 2IAD !"),
               actions: [
                 TextButton(
                   onPressed: () {
