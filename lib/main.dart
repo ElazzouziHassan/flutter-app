@@ -40,7 +40,6 @@ class ButtonWithAlert extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       onPressed: () {
-        // Show alert dialog when button is clicked
         showDialog(
           context: context,
           builder: (BuildContext context) {
@@ -50,7 +49,7 @@ class ButtonWithAlert extends StatelessWidget {
               actions: [
                 TextButton(
                   onPressed: () {
-                    Navigator.of(context).pop(); // Close the dialog
+                    Navigator.of(context).pop();
                   },
                   child: const Text("OK"),
                 ),
